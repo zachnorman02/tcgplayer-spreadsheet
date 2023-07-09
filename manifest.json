@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Card list export",
+  "version": "1.0",
+  "description": "Export cards in TCGPlayer shopping cart",
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": [
+        "https://www.tcgplayer.com/cart/*"
+      ]
+    }
+  ]
+}
